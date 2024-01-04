@@ -4,11 +4,10 @@ import Link from "next/link"
 const Footer = () => {
     return (
         <footer className="border-t">
-            <div className="flex-center wrapper flex-between flex-container flex-col gap-4 p-5 text-center sm:flex-row">
+            <div className="flex-center wrapper flex-between flex-container flex gap-4 p-5 text-center  text-sm">
                 <Link href='/'>
                     <Image src='/assets/images/logo.svg' width={300} height={38} alt="logo" />
                 </Link>
-
                 <p>©Bharatiya Federation of Shotokan Karate 2024. All rights reserved</p>
             </div>
         </footer>

@@ -6,9 +6,9 @@ import NavItems from "./NavItems";
 const Header = () => {
     return (
         <header className="w-full border-b">
-            <div className="wrapper flex place-items-center justify-center md:place-items-end">
-                <Link href='/'>
-                    <Image src='/assets/images/logo.svg' width={330} height={20} alt="logo"></Image>
+            <div className="wrapper flex items-center justify-between">
+                <Link href='/' className="w-36 ">
+                    <Image src='/assets/images/logo.svg' width={300} height={20} alt="logo"></Image>
                 </Link>
                 <div className="flex items-center justify-end">
 
