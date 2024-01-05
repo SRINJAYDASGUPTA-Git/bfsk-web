@@ -4,10 +4,10 @@ import Menu from "./Menu";
 import NavItems from "./NavItems";
 const Header = () => {
     return (
-        <header className="w-full border-b">
-            <div className="wrapper flex items-center justify-between">
-                <Link href='/'>
-                    <Image src='/assets/images/logo.svg' width={250} height={20} alt="logo"></Image>
+        <header className="w-full border-b bg-gray-200 ">
+            <div className="wrapper flex items-center justify-between md:justify-center ">
+                <Link href='/' >
+                    <Image src='/assets/images/logo.svg' width={250} height={20} alt="logo" className="w-[250px] md:w-[500px]"></Image>
                 </Link>
                 <div className="flex items-center justify-end">
 
@@ -16,7 +16,7 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-            <nav className="md:flex-between hidden w-full bg-primary-50 px-16">
+            <nav className="md:flex-between hidden w-full bg-gray-300 px-16 text-sm">
                 <NavItems />
             </nav>
         </header>
