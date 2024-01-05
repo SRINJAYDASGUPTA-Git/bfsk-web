@@ -33,7 +33,7 @@ export default function Home() {
 
       {/*About Shotokan*/}
       <div className='flex flex-col items-center justify-center'>
-        <h2 className='h2-bold'>The Masters of Shotokan Karate</h2>
+        <h2 className='h2-bold text-center'>The Masters of Shotokan Karate</h2>
         <div className='w-3/4 py-5 flex flex-col items-center gap-6 justify-center md:flex-row md:justify-between'>
           <Card sx={{ maxWidth: 400 }} className='p-4 '>
             <CardMedia

@@ -1,12 +1,8 @@
 import {
     DropdownMenu,
     DropdownMenuContent,
-    DropdownMenuItem,
-    DropdownMenuLabel,
-    DropdownMenuSeparator,
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-import { headerLinks } from "@/constants"
 import { HiMenuAlt3 } from "react-icons/hi"
 import NavItems from "./NavItems"
 
@@ -14,7 +10,7 @@ const Menu = () => {
     return (
         <DropdownMenu>
             <DropdownMenuTrigger asChild>
-                <HiMenuAlt3 size={40} />
+                <HiMenuAlt3 size={35} />
             </DropdownMenuTrigger>
             <DropdownMenuContent>
                 <NavItems />

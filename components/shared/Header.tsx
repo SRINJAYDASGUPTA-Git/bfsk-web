@@ -16,7 +16,7 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-            <nav className="md:flex-between hidden w-full bg-gray-300 px-16 text-sm">
+            <nav className="md:flex-between py-4 hidden w-full bg-gray-300 px-8 text-sm border-t border-b shadow-xl">
                 <NavItems />
             </nav>
         </header>
