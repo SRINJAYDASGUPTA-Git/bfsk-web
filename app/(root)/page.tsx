@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main >
       <div
-        className="relative overflow-hidden  bg-cover bg-no-repeat p-12 text-center bg-[url('/assets/images/bg.png')] h-[500px]"
+        className="relative overflow-hidden  bg-cover bg-no-repeat p-12 text-center bg-[url('/assets/images/bg.png')] h-[800px]"
       >
         <div
           className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-fixed bg-black/70"
@@ -15,12 +15,22 @@ export default function Home() {
           <div className="flex h-full items-center justify-center">
             <div className="text-[#f6f6f6] text-md px-8 md:text-2xl md:w-[50%]">
               Where confidence is chiseled from flaws, and inner warriors rise. Train with us, transform yourself.
+              <div className="flex flex-col items-center justify-center py-12">
+                <h2 className='h3-bold text-center'>
+                  Welcome to Bharatiya Federation of Shotokan Karate
+                </h2>
+                <div className="text-xl text-center p-medium-20 py-5">
+                  BFSK is a non-profit organization dedicated to the teaching of traditional Shotokan Karate. We are International Associates of <span className='font-bold'>Dynamic Shotokan Karate-Do International (DSKI)</span> and Member of <span className='font-bold'>World Karate Masters Association (WKMA)</span> and
+                  Member of <span className='font-bold'>Indian Karate Masters Association (IKMA)</span>
+
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
       {/*Description*/}
-      <div className='max-w-[80vw] flex items-center justify-center mx-auto'>
+      {/* <div className='max-w-[80vw] flex items-center justify-center mx-auto'>
         <div className="flex flex-col items-center justify-center py-12">
           <h2 className='h3-bold text-center'>
             Welcome to Bharatiya Federation of Shotokan Karate
@@ -31,7 +41,7 @@ export default function Home() {
 
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/*About Shotokan*/}
       <div className='flex flex-col items-center justify-center'>

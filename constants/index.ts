@@ -32,3 +32,54 @@ export const headerLinks = [
     route: "/contact",
   },
 ];
+
+export const blackBelts = [
+  {
+    name: "Jawed Khan",
+    rank: "2nd Dan",
+    image: "/assets/images/black_belts/jawed_khan.jpg",
+  },
+  {
+    name: "Soubhik Chowdhury",
+    rank: "1st Dan",
+    image: "/assets/images/black_belts/soubhik_chowdhury.jpg",
+  },
+  {
+    name: "Ankit Shaw",
+    rank: "1st Dan",
+    image: "/assets/images/black_belts/ankit_shaw.jpg",
+  },
+  {
+    name: "Purnima Dasgupta",
+    rank: "1st Dan",
+    image: "/assets/images/black_belts/purnima_dasgupta.jpg",
+  },
+  {
+    name: "Pintu Shaw",
+    rank: "1st Dan",
+    image: "/assets/images/black_belts/pintu_shaw.jpg",
+  },
+  {
+    name: "Sama Parveen",
+    rank: "1st Dan",
+    image: "/assets/images/black_belts/sama_parveen.jpg",
+  },
+  {
+    name: "Souvik Karmakar",
+    rank: "1st Dan",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg",
+  },
+  {
+    name: "Aditya Tanti",
+    rank: "1st Dan",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg",
+  },
+  {
+    name: "Dipankar <surname>",
+    rank: "1st Dan",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg",
+  },
+];
