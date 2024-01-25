@@ -2,6 +2,7 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -50,10 +51,13 @@ export default function Home() {
           <Card sx={{ maxWidth: 400 }} className='p-4 '>
             <CardMedia
               sx={{ objectFit: "contain" }}
-              image="/assets/images/funakoshi_sensei.png"
-              title="green iguana"
+              title="Gichin Funakoshi"
               className='h-[500px] max-h-full max-w-full'
-            />
+            >
+              <div style={{ position: 'relative', width: '100%', height: '100%' }}>
+                <Image src="/assets/images/funakoshi_sensei.png" fill objectFit="cover" alt="Funakoshi" />
+              </div>
+            </CardMedia>
             <CardContent>
               <Typography gutterBottom variant="h4" component="div">
                 Gichin Funakoshi
@@ -67,10 +71,13 @@ export default function Home() {
           <Card sx={{ maxWidth: 400 }} className='p-4 '>
             <CardMedia
               sx={{ objectFit: "contain" }}
-              image="/assets/images/Nakayama.png"
-              title="green iguana"
+              title="Masatoshi Nakayama"
               className='h-[500px] max-h-full max-w-full'
-            />
+            >
+              <div style={{ position: 'relative', width: '100%', height: '100%' }}>
+                <Image src="/assets/images/Nakayama.png" fill objectFit="cover" alt="Nakayama" />
+              </div>
+            </CardMedia>
             <CardContent>
               <Typography gutterBottom variant="h4" component="div">
                 Masatoshi Nakayama
@@ -87,10 +94,13 @@ export default function Home() {
           <Card sx={{ maxWidth: 400 }} className='p-4 '>
             <CardMedia
               sx={{ objectFit: "contain" }}
-              image="/assets/images/ali_darvish.jpg"
-              title="green iguana"
+              title="Ali Darwish"
               className='h-[500px] max-h-full max-w-full'
-            />
+            >
+              <div style={{ position: 'relative', width: '100%', height: '100%' }}>
+                <Image src="/assets/images/ali_darvish.jpg" fill objectFit="cover" alt="Ali Darwish" />
+              </div>
+            </CardMedia>
             <CardContent>
               <Typography gutterBottom variant="h4" component="div">
                 Shuseki Shihan Dr Ali Darwish (Hanshi)
@@ -109,10 +119,13 @@ export default function Home() {
           <Card sx={{ maxWidth: 400 }} className='p-4 '>
             <CardMedia
               sx={{ objectFit: "contain" }}
-              image="/assets/images/israfil_sensei.jpg"
-              title="green iguana"
+              title="Md. Israfil"
               className='h-[500px] max-h-full max-w-full'
-            />
+            >
+              <div style={{ position: 'relative', width: '100%', height: '100%' }}>
+                <Image src="/assets/images/israfil_sensei.jpg" fill objectFit="cover" alt="Md. Israfil" />
+              </div>
+            </CardMedia>
             <CardContent>
               <Typography gutterBottom variant="h4" component="div">
                 Md. Israfil
