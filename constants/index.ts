@@ -37,32 +37,32 @@ export const blackBelts = [
   {
     name: "Jawed Khan",
     rank: "2nd Dan",
-    image: "/assets/images/black_belts/jawed_khan.jpg",
+    image: "/assets/images/black_belts/jawedkhan.jpg",
   },
   {
     name: "Soubhik Chowdhury",
     rank: "1st Dan",
-    image: "/assets/images/black_belts/soubhik_chowdhury.jpg",
+    image: "/assets/images/black_belts/soubhikchowdhury.jpg",
   },
   {
     name: "Ankit Shaw",
     rank: "1st Dan",
-    image: "/assets/images/black_belts/ankit_shaw.jpg",
+    image: "/assets/images/black_belts/ankitshaw.jpg",
   },
   {
     name: "Purnima Dasgupta",
     rank: "1st Dan",
-    image: "/assets/images/black_belts/purnima_dasgupta.jpg",
+    image: "/assets/images/black_belts/purnimadasgupta.jpg",
   },
   {
     name: "Pintu Shaw",
     rank: "1st Dan",
-    image: "/assets/images/black_belts/pintu_shaw.jpg",
+    image: "/assets/images/black_belts/pintushaw.jpg",
   },
   {
     name: "Sama Parveen",
     rank: "1st Dan",
-    image: "/assets/images/black_belts/sama_parveen.jpg",
+    image: "/assets/images/black_belts/samaparveen.jpg",
   },
   {
     name: "Souvik Karmakar",

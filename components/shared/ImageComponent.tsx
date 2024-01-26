@@ -23,6 +23,7 @@ const ImageComponent = ({ fileName }: { fileName: String }) => {
                     className='flex items-center justify-center flex-col shadow-lg shadow-slate-500   rounded-xl'
                     fill={true}
                     style={{ objectFit: 'contain' }}
+                    loading='lazy'
                 // onClick={() => window.open(`/assets/images/gallery/${fileName}`)}
                 />
             </LightGallery>

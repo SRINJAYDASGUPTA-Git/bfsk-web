@@ -20,7 +20,7 @@ const page = () => {
                                 className='h-[500px] max-h-full max-w-full'
                             >
                                 <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-                                    <Image src={belt.image} fill objectFit="cover" alt={belt.name} />
+                                    <Image src={belt.image} fill style={{ objectFit: "cover" }} alt={belt.name} />
                                 </div>
                             </CardMedia>
                             <CardContent>
