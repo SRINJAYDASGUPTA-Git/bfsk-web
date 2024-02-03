@@ -7,13 +7,13 @@ import { usePathname } from "next/navigation"
 const NavItems = () => {
     const pathname = usePathname();
     return (
-        <ul className="md:flex-between flex w-full flex-col items-start gap-5 md:flex-row text-sm">
+        <ul className="md:items-center md:justify-between flex w-full flex-col items-start gap-5 md:flex-row text-sm md:px-20">
             {headerLinks.map((link) => {
                 const isActive = pathname === link.route
                 return (<li
                     key={link.route}
                     className={`${isActive && 'text-primary-500'
-                        } flex-center white-space-nowrap`}
+                        } flex-center white-space-nowrap `}
                 >
                     <Link href={link.route}>
                         <span className="lg:text-lg text-xs ">
