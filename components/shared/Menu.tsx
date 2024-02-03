@@ -17,9 +17,9 @@ const MobileNav = () => {
                 <SheetTrigger className="align-middle">
                     <CiMenuFries size={25} className="text-black me-2" />
                 </SheetTrigger>
-                <SheetContent className="flex flex-col bg-white md:hidden">
+                <SheetContent className="flex flex-col bg-white/80 md:hidden">
                     <p className="text-lg font-bold">BFSK</p>
-                    <Separator className="border border-gray-50" />
+                    <Separator className="border border-gray-50/80" />
                     <NavItems setOpen={setOpen} />
                 </SheetContent>
             </Sheet>
