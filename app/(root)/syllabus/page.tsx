@@ -36,7 +36,7 @@ function PdfDownloader() {
   };
 
   return (
-    <div className='container mx-auto text-xl'>
+    <div className='container mx-auto text-xl p-10'>
     <p className="text-gray-600 mb-4 text-xl">
         Welcome to BFSK's online syllabus portal! Here you'll find PDFs outlining the curriculum, grading policies, and important information for each belt level. Downloading and reviewing these documents regularly is crucial for your karate journey.
       </p>
