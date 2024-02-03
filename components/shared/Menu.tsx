@@ -1,23 +1,30 @@
+"use client"
 import {
-    DropdownMenu,
-    DropdownMenuContent,
-    DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
-import { HiMenuAlt3 } from "react-icons/hi"
+    Sheet,
+    SheetContent,
+    SheetTrigger,
+} from "@/components/ui/sheet"
+import { Separator } from "@/components/ui/separator"
+import { useState } from "react"
 import NavItems from "./NavItems"
+import { CiMenuFries } from "react-icons/ci";
 
-const Menu = () => {
+const MobileNav = () => {
+    const [isOpen, setOpen] = useState(false);
     return (
-        <DropdownMenu>
-            <DropdownMenuTrigger asChild>
-                <HiMenuAlt3 size={35} />
-            </DropdownMenuTrigger>
-            <DropdownMenuContent>
-                <NavItems />
-            </DropdownMenuContent>
-        </DropdownMenu>
-
+        <nav className="md:hiddenx">
+            <Sheet open={isOpen} onOpenChange={setOpen}>
+                <SheetTrigger className="align-middle">
+                    <CiMenuFries size={25} className="text-black me-2" />
+                </SheetTrigger>
+                <SheetContent className="flex flex-col bg-white md:hidden">
+                    <p className="text-lg font-bold">BFSK</p>
+                    <Separator className="border border-gray-50" />
+                    <NavItems setOpen={setOpen} />
+                </SheetContent>
+            </Sheet>
+        </nav >
     )
 }
 
-export default Menu
+export default MobileNav
